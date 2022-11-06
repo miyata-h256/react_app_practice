@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Login from "./login_components/Login";
+import { Route, Routes } from "react-router-dom"
 
 
 
@@ -10,7 +11,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Login />
+        <Routes>
+          <Route path="/login" element={<Login />} />;
+        </Routes>
       </header>
     </div>
   );
