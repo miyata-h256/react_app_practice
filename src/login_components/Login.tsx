@@ -1,15 +1,20 @@
 import React from "react";
-import { Button, Input } from "@material-tailwind/react";
 
 const Login: React.FC = () => {
     return (
-        <div className="flex w-80 h-60 flex-col gap-4 border rounded-md border-purple-100 p-2 text-lg shadow-lg shadow-purple-500">
-            <p className=" font-bold text-left text-purple-200">Account Info</p>
-            <Input type="email" label="email" className="text-gray-50"></Input>
-            <Input type="password" label="password" className="text-gray-50"></Input>
-            <form action="" method="post" className="flex place-content-around">
-                <Button type="submit" className="bg-purple-200 shadow-purple-500 hover:shadow-purple-500/50">Sign In</Button>
-                <Button type="button" className="bg-purple-200 shadow-purple-500 hover:shadow-purple-500">Sign Up</Button>
+        <div className="flex w-80 h-full flex-col gap-5 border rounded-md border-purple-100 p-2 text-lg shadow-lg shadow-purple-500 text-left text-purple-200 font-bold">
+            <p>Account Info</p>
+            <form action="" method="post" className="">
+                <label className="">User ID
+                    <input type="email" placeholder="email" className="input"></input>
+                </label>
+                <label>Password
+                    <input type="password" placeholder="password" className="input"></input>
+                </label>
+                <div className="flex place-content-around mt-10">
+                    <button type="submit" className="btn">Sign In</button>
+                    <button type="button" className="btn">Sign Up</button>
+                </div>
             </form>
         </div>
     )
