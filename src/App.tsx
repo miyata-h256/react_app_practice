@@ -6,14 +6,14 @@ import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+      // <header className="App-header">
+      <div className='h-screen w-screen bg-dark'>
         <Routes>
           <Route path="/login" element={<Login />} />;
           <Route path="/home" element={<Home />} />;
         </Routes>
-      </header>
-    </div>
+      </div>
+      // </header>
   );
 }
 
