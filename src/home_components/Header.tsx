@@ -8,8 +8,8 @@ const Header:React.FC = () => {
             <div>
                 <p className="text-5xl italic text-purple-100 text-shadow-purple-500 ">Home Page</p>
             </div>
-            <div className="flex pt-1">
-                <input type="text" placeholder="Search" className="input" />
+            <div className="flex">
+                <input type="text" placeholder="Search" className="input h-24" />
                 <DropDown/>
             </div>
         </header>
