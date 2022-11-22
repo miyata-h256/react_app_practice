@@ -5,7 +5,7 @@ import Footer from '../home_components/Footer';
 const Home = () => {
     return (
         <div className='flex flex-col h-screen w-screen'>
-            <div className=''>
+            <div className='h-1/6'>
                 <Header/>
             </div>
             <div className='flex h-5/6 text-center'>

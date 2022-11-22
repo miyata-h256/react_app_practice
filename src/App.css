@@ -32,5 +32,5 @@
 }
 
 .input{
-  @apply w-4/6 h-4/6 bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all hover:shadow-md hover:shadow-purple-500 focus:shadow-lg focus:shadow-purple-500 placeholder-shown:border-blue-gray-200 border focus:border text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-purple-200 text-gray-50 
+  @apply w-5/6 h-4/6 bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all hover:shadow-md hover:shadow-purple-500 focus:shadow-lg focus:shadow-purple-500 placeholder-shown:border-blue-gray-200 border focus:border text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-purple-200 text-gray-50 
 }
